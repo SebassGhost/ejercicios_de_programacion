@@ -12,7 +12,7 @@ function buscarLibro(libros, tituloBuscado) {
         
         if (libros[i].titulo === tituloBuscado) {           // Este if comprueba si el título coincide
             encontrado = true;
-            console.log(libros[i].titulo, libros[i].disponibles);
+            console.log("titulo:", libros[i].titulo,"| copias disponibles",libros[i].disponibles);
         }
     } // Aquí termina el for
     
