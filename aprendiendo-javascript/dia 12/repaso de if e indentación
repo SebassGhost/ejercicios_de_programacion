@@ -1,0 +1,12 @@
+if (numero > 2) {          // IF 1: principal
+    console.log("A");
+    
+    if (numero === 4) {    // IF 2: anidado
+        console.log("B");
+    }
+    if (numero < 10) {     // IF 3: también anidado
+        console.log("C");
+    }
+}
+
+console.log("D");          // Fuera de todos los if
